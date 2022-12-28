@@ -1,7 +1,5 @@
 const User = require('../models/users')
 
-
-
 exports.login = async(req, res)=>{
 
     let reqData = req.body
